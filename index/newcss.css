@@ -1,0 +1,648 @@
+
+/* h3 design-heading details */
+/* Font name: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif
+
+Font size: 20px
+
+Font weight: 900
+
+Line height: 22px
+
+Font color: rgb(56, 56, 56) */
+
+/* navbar font */
+/* Font name: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif
+
+Font size: 11px
+
+Font weight: 700
+
+Line height: 20px
+
+Font color: rgb(255, 255, 255) */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) {
+  .secbg4
+  {
+    background-color: #1b1b1b;
+    padding:25px 0px;
+  }
+  .design-heading {
+    font-size: 12px;
+  }
+  .section_third {
+    padding-top: 15px;
+  }
+  h3.design-heading::before{
+    height:12px;
+  }
+  h3.design-heading::after{
+    height:12px;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  .section-seclast{
+    padding:5px 0;
+  }
+  .navbar-default .navbar-nav > li {
+    margin-right: 5px;
+    margin-top: 13px;
+  }
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  h3,h4{
+    font-size: 10px;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .secbg4
+  {
+    background-color: #1b1b1b;
+    padding:35px 0px;
+  }
+  .design-heading {
+
+    font-size: 16px;
+
+  }
+  .section_third {
+    padding-top: 20px;
+  }
+  h3.design-heading::before{
+    height:16px;
+  }
+  h3.design-heading::after{
+    height:16px;
+  }
+  .text_middle{
+    margin-bottom: 30px;
+  }
+  p{
+    margin-bottom: 12px;
+  }
+  .section-seclast{
+    padding:10px 0;
+  }
+  .navbar-default .navbar-nav > li {
+    margin-right: 5px;
+    margin-top: 13px;
+  }
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  h3,h4{
+    font-size: 10px;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .secbg4
+  {
+    background:url(http://startuprr.co.nf/wp-content/themes/startuprr/img/sec44.png) no-repeat center center #151515;
+    background-size:contain;
+    padding:40px 0px;
+    height: auto;
+  }
+  .design-heading {
+
+    color: #383838;
+    font-size: 18px;
+  }
+  .section_third {
+    padding-top: 20px;
+  }
+  h3.design-heading::before{
+    height:18px;
+  }
+  h3.design-heading::after{
+    height:18px;
+  }
+  .text_middle{
+    margin-bottom: 35px;
+  }
+  p{
+    margin-bottom: 12px;
+  }
+  .section-seclast{
+    padding:12px 0;
+  }
+  .navbar-default .navbar-nav > li {
+    margin-right: 5px;
+    margin-top: 13px;
+  }
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  h3,h4{
+    font-size: 12px;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .secbg4
+  {
+    background:url(http://startuprr.co.nf/wp-content/themes/startuprr/img/sec44.png) no-repeat center center #151515;
+    background-size:cover;
+    padding: 45px 0px;
+  }
+  .design-heading {
+    font-size: 20px;
+  }
+  .section_third {
+    padding-top: 25px;
+  }
+  h3.design-heading::before{
+    height:20px;
+  }
+  h3.design-heading::after{
+    height:20px;
+  }
+  .text_middle{
+    margin-bottom: 40px;
+  }
+  p{
+    margin-bottom: 14px;
+  }
+  .section-seclast{
+    padding:15px 0;
+  }
+  .navbar-default .navbar-nav > li {
+    margin-right: 5px;
+    margin-top: 13px;
+  }
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  h3,h4{
+    font-size: 12px;
+  }
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+  .container{
+    max-width:803px;
+  }
+  header{
+    padding: 0 236px;
+    height: 74px;
+  }
+  .navbar-brand img{
+    width: 106px;
+
+  }
+  .navbar-default .navbar-nav > li {
+    margin-right: 6px;
+    margin-top: 10px;
+  }
+  /* ul#menu-primary-menu {
+  margin: 0 7px 0 0;
+  } */
+  ul#menu-primary-menu {
+    padding-bottom: 8px;
+  }
+  .mb20 {
+    margin-bottom: 42px;
+  }
+  .custom-div h3 {
+    font-size: 10px;
+  }
+  .custom-div p {
+    padding-top: 8px;
+    font-size: 8px;
+  }
+  .row.mb20.id1 {
+    position: relative;
+    top: 50px;
+  }
+  .row.mb20.id2 {
+    position: relative;
+    top: 37px;
+
+  }
+  .row.mb20.id3 {
+    position: relative;
+    top: 25px;
+
+  }
+
+  .Container.s3id1 {
+    position: relative;
+    top: 3px;
+  }
+  .row.boxes-row {
+    position: relative;
+    top: -14px;
+  }
+  .box h3{
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .box p {
+    font-size: 8px;
+  }
+
+  .row.media-row {
+    position: relative;
+    top: -10px;
+    left: -10px;
+  }
+  .media-body h4, .media-body p{
+    font-size: 10px;
+
+  }
+
+  section.text-center.section-seclast {
+    height: 210px;
+  }
+  blockquote.authorContent {
+    position: relative;
+    top: 40px;
+  }
+  .text-center.author {
+    position: relative;
+    top: 33px;
+  }
+  .prev-next.prev-next-1200 {
+    position: relative;
+    top: 67px;
+    left: 2px;
+  }
+  section.section-client.section-client-1200 {
+    height: 176px;
+  }
+  .container.section-client-container {
+    position: relative;
+    top: 39px;
+  }
+  .section-client{
+    background-color:#3b3b3b;
+  }
+
+  .section-client > a:hover{
+    opacity: 1.2;
+  }
+
+  /*  */
+  .secbg4
+  {
+    background:url(http://startuprr.co.nf/wp-content/themes/startuprr/img/sec44.png) no-repeat center center #151515;
+    background-size:cover;
+    padding:0px 0px;
+    height: 413px;
+  }
+  .design-Container {
+    position: relative;
+    top: 42px;
+  }
+  .design-heading {
+    /* font-size: 20px; */
+    font-size:17px;
+  }
+  .section_third {
+    padding-top: 25px;
+  }
+  h3.design-heading::before{
+    height:20px;
+  }
+  h3.design-heading::after{
+    height:20px;
+  }
+  .text_middle{
+    margin-bottom: 50px;
+    font-size: 11px;
+  }
+  p{
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+  .section-seclast{
+    padding:20px 0;
+  }
+  h3,h4{
+    font-size: 13px;
+  }
+}
+
+
+
+/* buttons */
+.btn-sm, .btn-group-sm > .btn {
+  padding: 5px 7px;
+  font-size: 7px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-primary {
+  /* color: #888888; */
+  color:#00a99d;
+  background-color: transparent;
+  border-color: #cecece;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/* section-4  */
+
+.boxes {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.box {
+  padding: 20px;
+}
+
+.box p{
+  font-size: 10px; margin-bottom:0px;
+  margin-top: 10px;
+}
+
+/*Icon Boxes Section3*/
+.icon-circle{display:inline-block; width:65px; height:65px; background-color:#383838; color:#e4e4e4; border-radius:100px; font-size:25px; cursor:pointer;}
+.icon-circlemid{background-color:#00a99d;}
+.icon-circle:hover{background-color:#00a99d;}
+.icon-circlemid:hover{background-color:#383838; }
+.icon-circle i.fa{display: inline-block;
+  padding: 18px;}
+
+
+
+  /* section-5  media objects*/
+
+  .media-body-about{
+    font-size: 9px;
+    color: gray;
+    text-transform: capitalize;
+  }
+  .textwidget p{
+    text-align: justify;
+  }
+
+  .media {
+    margin-bottom: 8px;
+  }
+  .side-icon-b{
+    display: block;
+    font-size: 13px;
+    float: left;
+    color: #eeeeee;
+    padding: 0px 14px;
+  }
+
+  .sec-icon-bg{
+    background: url("../images/icon-bg.png") no-repeat top center;
+    width: 30px;
+    height: 61px;
+    display: block;
+    background-size: 100%;
+    padding: 8px;}
+
+
+
+    .text-center {
+      text-align: center;
+    }
+
+
+    /* section -6 author content */
+
+    p#authorContent {
+      margin-top: 10px;
+    }
+
+    #author {
+      width: auto;
+      margin: auto;
+      /* height: 25px; */
+      background-color: #e4e4e4;
+      line-height: 15px;
+      font-size: 9px;
+      padding: 6px;
+      border-radius: 3px;
+      color: #d2d2d2;
+      color: #009688;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    #authorContent:before{
+      font-family: FontAwesome;
+      content: '\f10d ';
+      top: -12px !important;
+      margin-right: 10px;
+    }
+    #authorContent:after{
+      font-family: FontAwesome;
+      content: '\f10e ';
+      top: -12px !important;
+      margin-left: 10px;
+    }
+
+
+    /* button style  */
+    .prev-next a i {
+      display: inline-block;
+      padding: 0px 6px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 20px;
+    }
+
+    .prev-next a i#prev{
+      background: white;
+      color: #00ae9f;
+    }
+    .prev-next a i#next{
+      background: #3b3b3b;
+      color: white;
+    }
+
+    /* author css end */
+
+
+
+
+    /* navbar css*/
+
+
+
+    .navbar-default{background-color: #f9f9f9;}
+    .navbar-default .navbar-nav > li {
+      margin-right: 5px;
+      margin-top: 6px;
+    }
+
+
+
+    .navbar-default .navbar-nav > li > a {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #4c4c4c;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      max-width: 100%;
+      white-space: normal;
+      padding: 14px 11px;
+      border-radius: 3px;
+      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .navbar-fixed-top {
+      top: 0px;}
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus{color: #ffffff;
+        background-color: #00a99d;}
+
+    .navbar-default .navbar-nav li > a > i:hover,.navbar-default .navbar-nav li > a > i:focus
+        {font-size: 15px;
+          color: white;
+          background-color: #00a99d;}
+
+
+
+
+
+
+
+
+
+
+          /* section - 1 */
+
+          .section_features{
+            background-color:#151515;
+            z-index:1;position:relative;
+          }
+          .section_features h3{color:#e4e4e4;}
+
+          /* Design Headings */
+          .design-heading{
+            text-align: center;
+            text-transform: uppercase;
+            color: #383838;
+            /* font-size: 20px; */
+            font-weight: 900;
+            margin-bottom: 4px;}
+
+            h3.design-heading::first-letter{  color: #3eb1a8;}
+            h3.design-heading::before{
+              background-image: url('../images/page-design-heading-left.png');
+              background-size: 100% 20px;
+              display: inline-block;
+              width: 30%;
+              /* height: 20px; */
+              content: "";
+            }
+
+            h3.design-heading::after{
+              background-image: url('../images/page-design-heading-right.png');
+              background-size: 100% 20px;
+              display: inline-block;
+              width: 30%;
+              /* height: 20px; */
+              content: "";
+
+            }
+
+            /* text-middle */
+            .text_middle{
+              color: #999695;
+              text-align: center;
+              font-size: 11px;
+              /* margin-bottom: 50px; */
+            }
+
+            span.side-icon {display: block;
+              font-size: 27px;
+              /* width: 28px; */
+              float: left;
+              color: #00a99d;
+              padding: 0px 20px;}
+
+              .custom-div{width:65%; position:relative; float:left;}
+              .custom-div2{width:65%; position:relative; float:left;}
+
+              .custom-div p{
+                padding-top: 0px;
+              }
+
+              /* H3 tag */
+              h4,h3{
+                font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                text-transform: uppercase;
+                color: #383838;
+                padding:0px;
+                /* font-size: 13px; */
+                font-weight: 900;
+                margin-bottom: 8px;
+                margin-top: 0;
+              }
+
+
+              p {
+                /* font-size: 13px; */
+                color:#787878;
+                font-weight: 400;
+                font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+              }
+
+
+
+
+              /* text middle */
+
+
+              /* side-icon */
+              span.side-icon {display: block;
+                font-size: 27px;
+                /* width: 28px; */
+                float: left;
+                color: #00a99d;
+                padding: 0px 20px;}
+
+                .custom-div{width:65%; position:relative; float:left;}
+                .custom-div2{width:65%; position:relative; float:left;}
+
+
+
+                /* section last */
+
+                img {
+                  max-width: 100%;
+                  height: auto;
+                  opacity: 1;
+                  transition: .3s ease;
+                  backface-visibility: hidden;
+                }
+
+                .section-client-anchor:hover img{
+                  opacity: 0.3;
+                }
+
+                .section-seclast{
+                  background-color:#00ae9f; color:white;
+                }
